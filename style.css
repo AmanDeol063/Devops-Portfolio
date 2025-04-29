@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  color: #222;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+header {
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 700px;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  background: #fff0f5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #ff69b4;
+  border-radius: 5px;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 1rem;
+  background: #ffd700;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.links a:hover {
+  background: #ffbf00;
+}
+
+footer {
+  text-align: center;
+  margin: 3rem 0 1rem;
+  color: #555;
+}
